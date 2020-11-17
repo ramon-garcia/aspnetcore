@@ -1,4 +1,4 @@
 Caching
 =======
 
-Contains libraries for in-memory caching and distributed caching. Includes distributed cache implementations for in-memory, Microsoft SQL Server, and Redis.
+Includes distributed cache implementations for Microsoft SQL Server, and Redis.
