@@ -1,0 +1,8 @@
+﻿Microsoft.Extensions.Caching.StackExchangeRedis.RedisCacheOptions
+Microsoft.Extensions.Caching.StackExchangeRedis.RedisCacheOptions.Configuration.get -> string
+Microsoft.Extensions.Caching.StackExchangeRedis.RedisCacheOptions.Configuration.set -> void
+Microsoft.Extensions.Caching.StackExchangeRedis.RedisCacheOptions.ConfigurationOptions.get -> StackExchange.Redis.ConfigurationOptions
+Microsoft.Extensions.Caching.StackExchangeRedis.RedisCacheOptions.ConfigurationOptions.set -> void
+Microsoft.Extensions.Caching.StackExchangeRedis.RedisCacheOptions.InstanceName.get -> string
+Microsoft.Extensions.Caching.StackExchangeRedis.RedisCacheOptions.InstanceName.set -> void
+Microsoft.Extensions.Caching.StackExchangeRedis.RedisCacheOptions.RedisCacheOptions() -> void

@@ -1,0 +1,5 @@
+﻿Microsoft.Extensions.Http.PolicyHttpMessageHandler
+Microsoft.Extensions.Http.PolicyHttpMessageHandler.PolicyHttpMessageHandler(Polly.IAsyncPolicy<System.Net.Http.HttpResponseMessage> policy) -> void
+Microsoft.Extensions.Http.PolicyHttpMessageHandler.PolicyHttpMessageHandler(System.Func<System.Net.Http.HttpRequestMessage, Polly.IAsyncPolicy<System.Net.Http.HttpResponseMessage>> policySelector) -> void
+override Microsoft.Extensions.Http.PolicyHttpMessageHandler.SendAsync(System.Net.Http.HttpRequestMessage request, System.Threading.CancellationToken cancellationToken) -> System.Threading.Tasks.Task<System.Net.Http.HttpResponseMessage>
+virtual Microsoft.Extensions.Http.PolicyHttpMessageHandler.SendCoreAsync(System.Net.Http.HttpRequestMessage request, Polly.Context context, System.Threading.CancellationToken cancellationToken) -> System.Threading.Tasks.Task<System.Net.Http.HttpResponseMessage>
