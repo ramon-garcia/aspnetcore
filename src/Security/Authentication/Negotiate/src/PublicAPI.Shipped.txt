@@ -16,6 +16,12 @@ Microsoft.AspNetCore.Authentication.Negotiate.LdapSettings.EnableLdapClaimResolu
 Microsoft.AspNetCore.Authentication.Negotiate.LdapSettings.EnableLdapClaimResolution.set -> void
 Microsoft.AspNetCore.Authentication.Negotiate.LdapSettings.IgnoreNestedGroups.get -> bool
 Microsoft.AspNetCore.Authentication.Negotiate.LdapSettings.IgnoreNestedGroups.set -> void
+Microsoft.AspNetCore.Authentication.Negotiate.LdapSettings.TcpKeepAlive.get -> bool
+Microsoft.AspNetCore.Authentication.Negotiate.LdapSettings.TcpKeepAlive.set -> void
+Microsoft.AspNetCore.Authentication.Negotiate.LdapSettings.AutoReconnect.get -> bool
+Microsoft.AspNetCore.Authentication.Negotiate.LdapSettings.AutoReconnect.set -> void
+Microsoft.AspNetCore.Authentication.Negotiate.LdapSettings.SecureSocketLayer.get -> bool
+Microsoft.AspNetCore.Authentication.Negotiate.LdapSettings.SecureSocketLayer.set -> void
 Microsoft.AspNetCore.Authentication.Negotiate.LdapSettings.LdapSettings() -> void
 Microsoft.AspNetCore.Authentication.Negotiate.LdapSettings.Validate() -> void
 Microsoft.AspNetCore.Authentication.Negotiate.NegotiateDefaults

@@ -85,6 +85,9 @@ namespace Microsoft.AspNetCore.Authentication.Negotiate
                         ldapSettings.LdapConnection = new LdapConnection(di, credentials);
                     }
 
+                    ldapSettings.LdapConnection.SessionOptions.TcpKeepAlive = ldapSettings.TcpKeepAlive;
+                    ldapSettings.LdapConnection.SessionOptions.SecureSocketLayer = ldapSettings.SecureSocketLayer;
+                    ldapSettings.LdapConnection.SessionOptions.AutoReconnect = ldapSettings.AutoReconnect;
                     ldapSettings.LdapConnection.SessionOptions.ProtocolVersion = 3; //Setting LDAP Protocol to latest version
                     ldapSettings.LdapConnection.Timeout = TimeSpan.FromMinutes(1);
                 }

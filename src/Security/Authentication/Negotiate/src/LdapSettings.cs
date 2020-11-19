@@ -46,6 +46,24 @@ namespace Microsoft.AspNetCore.Authentication.Negotiate
         public bool IgnoreNestedGroups { get; set; }
 
         /// <summary>
+        /// The TcpKeepAlive property enables TCP keep-alive.
+        /// It is passed to <see cref="LdapSessionOptions"/>
+        /// </summary>
+        public bool TcpKeepAlive { get; set; }
+
+        /// <summary>
+        /// The AutoReconnect property specifies if auto-reconnect is enabled.
+        /// It is passed to <see cref="LdapSessionOptions"/>
+        /// </summary>
+        public bool AutoReconnect {get; set;}
+
+        /// <summary>
+        /// The SecureSocketLayer option enables SSL encryption in the LDAP connection.
+        /// It is passed to <see cref="LdapSessionOptions"/>
+        /// </summary>
+        public bool SecureSocketLayer {get; set;}
+
+        /// <summary>
         /// The <see cref="LdapConnection"/> to be used to retrieve role claims.
         /// If no explicit connection is provided, an LDAP connection will be
         /// automatically created based on the <see cref="Domain"/>,
